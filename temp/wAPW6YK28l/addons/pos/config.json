@@ -1,0 +1,43 @@
+{
+   "name":"POS",
+   "unique_identifier":"pos",
+   "version":"7.0",
+   "addon_banner":"pos.jpg",
+   "minimum_item_version":"7",
+   "directory":"",
+   "sql_file":"",
+   "files":[
+      {
+         "root_directory"    : "addons/pos/controllers/POSController.php",
+         "update_directory"  : "app/Http/Controllers/POSController.php"
+      },
+      {
+         "root_directory":"addons/pos/views/admin/pos/checkout.blade.php",
+         "update_directory":"resources/views/admin/pos/checkout.blade.php"
+      },
+      {
+         "root_directory":"addons/pos/views/admin/pos/index.blade.php",
+         "update_directory":"resources/views/admin/pos/index.blade.php"
+      },
+      {
+         "root_directory":"addons/pos/views/admin/pos/itemlisting.blade.php",
+         "update_directory":"resources/views/admin/pos/itemlisting.blade.php"
+      },
+      {
+         "root_directory":"addons/pos/views/admin/pos/orders.blade.php",
+         "update_directory":"resources/views/admin/pos/orders.blade.php"
+      },
+      {
+         "root_directory":"addons/pos/views/admin/pos/pos.js",
+         "update_directory":"resources/views/admin/pos/pos.js"
+      },
+      {
+          "root_directory"    : "addons/pos/routes/pos.php",
+          "update_directory"  : "routes/pos.php"
+      },
+      {
+          "root_directory"    : "addons/pos/assets/pos.jpg",
+          "update_directory"  : "storage/app/public/addons/pos.jpg"
+      }
+   ]
+}
